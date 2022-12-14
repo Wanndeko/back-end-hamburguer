@@ -35,9 +35,9 @@ app.get('/orders/', (request, response) => {
 })
 
 app.post('/orders', (request, response) => {
-    const { name, order, price, status } = request.body
+    const { name, order } = request.body
 
-    const client = { id: uuid.v4(), name, order, price, status }
+    const client = { id: uuid.v4(), name, order }
 
     pedidos.push(client)
 
@@ -46,13 +46,13 @@ app.post('/orders', (request, response) => {
 })
 
 app.put('/orders/:id', check_id, (request, response) => {
-    const { name, order, price, status } = request.body
+    const { name, order } = request.body
 
     const index = request.client_index
 
     const id = request.user_id
 
-    const up_date_orders = { id, name, order, price, status }
+    const up_date_orders = { id, name, order }
 
     pedidos[index] = up_date_orders
 
