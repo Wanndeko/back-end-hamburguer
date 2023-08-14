@@ -12,7 +12,7 @@
 
 <h2>Sobre 📃</h2>
 <p> Esse projeto é uma api de cadastro de pedidos de hamburgueria, possui um crud completo,
-recebendo o nome do cliente e o pedido. Serve de Base para a sua interface <a href=https://github.com/Wanndeko/front-burguer target=blank>codeBurguer</a>.</p>
+recebendo o nome do cliente e o pedido. Serve de Base para a sua interface <a href=https://github.com/Wanndeko/front-burguer target="_blank">codeBurguer</a>.</p>
 
 <h2>Rotas 📄</h2>
 - ` `
