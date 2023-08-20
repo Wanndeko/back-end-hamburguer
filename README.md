@@ -15,7 +15,7 @@
 <p> Esse projeto é uma api de cadastro de pedidos de hamburgueria, possui um crud completo,
 recebendo o nome do cliente e o pedido. Serve de Base para a sua interface <a href=https://github.com/Wanndeko/front-burguer target="_blank">codeBurguer</a>.</p>
 
-<h2>Rotas 📄</h2>
+<h2>utilização🛠️</h2>
 <p>get => /orders -- traz todos os pedidos cadastrados nos array de pedidos.</p><br>
 
 <p>post => /orders -- recebe os dados name, order do body e adiciona um id unico para depois executar o push para a array de pedidos.</p><br>
