@@ -3,7 +3,7 @@ const { request, response } = require('express')
 const express = require("express")
 const cors = require("cors")
 const uuid = require("uuid")
-const port = 3002
+const port = process.env.PORT || 3000
 const app = express()
 
 app.use(express.json())
@@ -25,8 +25,6 @@ const check_id = (request, response, next) => {
 
     next()
 }
-
-
 
 
 
@@ -75,30 +73,6 @@ app.patch('/orders/:id', check_id, (request, response) => {
 
     return response.json(pedidos[index])
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
